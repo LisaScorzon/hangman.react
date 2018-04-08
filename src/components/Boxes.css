@@ -1,0 +1,16 @@
+.Boxes {
+  flex: 1;
+  min-width: 75px;
+  max-width: 75px;
+  min-height: 75px;
+  max-height: 75px;
+  border: 4px solid #eee;
+}
+
+.Boxes.fill-1 {
+  background-color: #D0021B;
+}
+
+.Boxes.fill-2 {
+  background-color: #4A90E2;
+}
