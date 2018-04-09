@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import initialState from './initialState'
-import './App.css';
 import Gameline from './containers/Gameline'
 import Boxes from './components/Boxes'
-import sidebar from './reducer/sidebar'
+import sidebar from './reducers/sidebar'
 import game from './lib/game'
 import logo from './hangmanImage.png'
+import store from './store'
+import Alphabet from './components/Alphabet'
 
 
 
@@ -22,11 +23,10 @@ class App extends Component {
         <p className="App-intro">
           To get started guess a letter! You have 6 chances!
         </p>
-        <text/>
-        <sidebar/>
-        <initialState/>
 
-
+          
+          <Boxes/>
+          <Alphabet/>
       </div>
     );
   }

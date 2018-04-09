@@ -1,4 +1,4 @@
-import  { PureComponent } from 'react'
+import  React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import './Gameline.css'
@@ -11,7 +11,14 @@ import game from '../lib/game'
       PropTypes.arrayOf(PropTypes.number)
     ).isRequired
   }
+  reder(){
+    return (
+      <div className="Gameline">
+      </div>
+    )
+  }
 }
+
 
 const word = [ "hello"]
 
