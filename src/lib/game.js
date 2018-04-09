@@ -30,7 +30,7 @@ class game extends PureComponent {
     if (removeguessedletters === 0) return true
   }
   // to read from the console
-  
+
   console.log('test winner 1:', !isWinner('hello', ['e', 'x']))
   console.log('test winner 2:', isWinner('hello', ['o', 'l', 'e', 'h']))
 

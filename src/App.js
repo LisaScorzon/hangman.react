@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import initialState from './initialState'
-import Gameline from './containers/Gameline'
+import Guesses from './reducers/Guesses'
 import Boxes from './components/Boxes'
-import sidebar from './reducers/sidebar'
+import Sidebar from './reducers/Sidebar'
 import game from './lib/game'
 import logo from './hangmanImage.png'
 import store from './store'
@@ -23,10 +23,12 @@ class App extends Component {
         <p className="App-intro">
           To get started guess a letter! You have 6 chances!
         </p>
-
+        
           <store/>
-          <Boxes/>
+
           <Alphabet/>
+
+          <initialState/>
       </div>
     );
   }
