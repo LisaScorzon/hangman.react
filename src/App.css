@@ -1,6 +1,15 @@
+.App {
+  text-align:center;
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 body {
   font-family: 'Orbitron', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 2em
 }
 
- 
+body {
+ background: #8cf442;
+ font-family: Cabin;
+}
