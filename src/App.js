@@ -5,9 +5,9 @@ import initialState from './initialState'
 import './App.css';
 import Gameline from './containers/Gameline'
 import Boxes from './components/Boxes'
-import sidebar from './reducers/sidebar'
-import Game from './lib/Game'
-import guess from './actions/game'
+import sidebar from './reducer/sidebar'
+import game from './lib/game'
+
 
 
 

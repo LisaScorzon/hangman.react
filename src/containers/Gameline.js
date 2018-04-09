@@ -2,7 +2,7 @@ import  { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import './Gameline.css'
-import Game from '../lib/Game'
+import game from '../lib/game'
 
 
  class Gameline extends PureComponent {
@@ -17,7 +17,7 @@ const word = [ "hello"]
 
   const mapStateToProps = () => ({
     word: word,
-    Game:Game
+    game:game
   })
 
 

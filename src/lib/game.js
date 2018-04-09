@@ -30,20 +30,7 @@ class game extends PureComponent {
     if (removeguessedletters === 0) return true
   }
   // to read from the console
-  const readline = require('readline')
-  const rl = readline.createInterface({input:process.stdin, output:process.stdout})
-  function next(word, guesses) {
-      // check if lost
-      if (isWinner(word, guesses) === true) return console.log('You lose!')
-      // check if won
-      if (isWinner) return console.log('You won!')
-      // ask for the next letter
-      rl.question('next letter? ', answer => {
-          console.log('player wrote:', answer);
-
-          // do something with answer
-      })
-  }
+  
   console.log('test winner 1:', !isWinner('hello', ['e', 'x']))
   console.log('test winner 2:', isWinner('hello', ['o', 'l', 'e', 'h']))
 
