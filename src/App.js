@@ -24,7 +24,7 @@ class App extends Component {
           To get started guess a letter! You have 6 chances!
         </p>
 
-          
+          <store/>
           <Boxes/>
           <Alphabet/>
       </div>
